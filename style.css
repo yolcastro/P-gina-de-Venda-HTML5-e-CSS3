@@ -141,7 +141,7 @@ button:hover {
 
 @media (max-width: 576px) {
     .fundo {
-        width: 500px;
+        width: 400px;
         height: 550px;
         flex-direction: column;
         gap: 0px;
