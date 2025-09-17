@@ -90,24 +90,18 @@ nav a:hover {
     margin-bottom: 5px;
 }
 
-.btn-comprar {
-    display: inline-block;
-    text-align: center;
+button {
     width: 280px;
-    max-width: 100%;
     height: 38px;
-    line-height: 38px;
+    border: none;
     border-radius: 10px;
     font-size: 20px;
     font-weight: bold;
     color: white;
     background-color: #e8935e;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
 }
 
-.btn-comprar:hover {
-    background-color: #d87b47;
+button:hover {
     cursor: pointer;
 }
 
@@ -147,32 +141,20 @@ nav a:hover {
 
 @media (max-width: 576px) {
     .fundo {
-        width: 90%;
-        height: auto;
+        width: 500px;
+        height: 550px;
         flex-direction: column;
-        gap: 20px;
-        padding: 1rem;
+        gap: 0px;
     }
-
     .menu {
-        margin: 20px auto 20px auto;
+        margin: 20px auto;
+        margin-bottom: 20px;
     }
-
     .menu-container {
-        width: 90%;
+        width: 500px;
     }
-
     .fundo img {
-        width: 80%;
-        max-width: 250px;
+        width: 250px;
         margin-bottom: 0px;
-    }
-
-    .textos h1, .textos h2, .textos h3 {
-        width: 90%;
-    }
-
-    button {
-        width: 90%;
     }
 }
