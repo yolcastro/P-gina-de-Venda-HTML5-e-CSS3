@@ -141,20 +141,28 @@ button:hover {
 
 @media (max-width: 576px) {
     .fundo {
-        width: 400px;
-        height: 550px;
+        width: 90%;
+        height: auto;
         flex-direction: column;
-        gap: 0px;
+        gap: 15px;
+        padding: 1rem;
     }
     .menu {
-        margin: 20px auto;
-        margin-bottom: 20px;
+        margin: 20px auto 20px auto;
     }
     .menu-container {
-        width: 500px;
+        width: 90%;
     }
     .fundo img {
-        width: 250px;
-        margin-bottom: 0px;
+        width: 80%;
+        max-width: 250px;
+        margin-bottom: 0;
+    }
+    .textos h1, .textos h2, .textos h3 {
+        width: 90%;
+    }
+    button {
+        width: 90%;
+        max-width: 280px;
     }
 }
