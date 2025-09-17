@@ -28,7 +28,8 @@ nav a:hover {
 }
 
 .menu-container {
-    width: 1220px;
+    width: 100%;
+    max-width: 90%;
     margin: 0 auto;
 }
 
@@ -50,15 +51,19 @@ nav a:hover {
     justify-content: center;
     flex-wrap: wrap;
     gap: 50px;
-    width: 1260px;
-    height: 70vh;
+    width: 100%;
+    max-width: 90%;
+    min-height: 70vh;
     margin: 0 auto;
     border-radius: 30px;
     background-color: white;
+    padding: 2rem;
 }
 
 .fundo img {
+    max-width: 100%;
     width: 420px;
+    height: auto;
 }
 
 .textos {
@@ -105,21 +110,27 @@ button:hover {
     cursor: pointer;
 }
 
+@media (max-width: 1400px) {
+    .fundo {
+        gap: 30px;
+    }
+}
+
 @media (max-width: 1200px) {
     .fundo {
-        width: 990px;
+        max-width: 90%;
     }
     .menu-container {
-        width: 950px;
+        max-width: 90%;
     }
 }
 
 @media (max-width: 992px) {
     .fundo {
-        width: 800px;
+        max-width: 90%;
     }
     .menu-container {
-        width: 760px;
+        max-width: 90%;
     }
     .fundo img {
         width: 300px;
@@ -128,11 +139,11 @@ button:hover {
 
 @media (max-width: 768px) {
     .fundo {
-        width: 700px;
+        max-width: 90%;
         gap: 20px;
     }
     .menu-container {
-        width: 660px;
+        max-width: 90%;
     }
     .fundo img {
         width: 250px;
@@ -142,7 +153,7 @@ button:hover {
 @media (max-width: 576px) {
     .fundo {
         width: 90%;
-        height: auto;
+        min-height: auto;
         flex-direction: column;
         gap: 15px;
         padding: 1rem;
